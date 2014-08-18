@@ -1,25 +1,154 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6162" systemVersion="14A238h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.17" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6160"/>
+        <deployment defaultVersion="1792" identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.11"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--View Controller - Tipper-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
-                    </layoutGuides>
+                <viewController title="Tipper" id="vXZ-lx-hvc" customClass="ViewController" customModule="tips" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="480"/>
+                        <rect key="frame" x="0.0" y="64" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <view appearanceType="aqua" contentMode="scaleToFill" id="rBQ-i2-5sp">
+                                <rect key="frame" x="0.0" y="35" width="320" height="533"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <view appearanceType="aqua" alpha="0.0" contentMode="scaleToFill" id="kmf-hs-ZTz">
+                                        <rect key="frame" x="0.0" y="143" width="320" height="390"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <subviews>
+                                            <view appearanceType="aqua" alpha="0.0" contentMode="scaleToFill" id="Npk-C9-nyn">
+                                                <rect key="frame" x="0.0" y="-67" width="320" height="457"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <subviews>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$10.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="P7M-ho-TdH">
+                                                        <rect key="frame" x="20" y="82" width="280" height="26"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="5oG-B0-PNe">
+                                                        <rect key="frame" x="20" y="111" width="280" height="83"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="70"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="highlightedColor" red="0.078431372549019607" green="0.32941176470588235" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="i2a-25-QJg">
+                                                        <rect key="frame" x="173" y="318" width="127" height="41"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="35"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="highlightedColor" red="0.078431372550000003" green="0.3294117647" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <view appearanceType="aqua" contentMode="scaleToFill" id="OzK-m3-TB0">
+                                                        <rect key="frame" x="20" y="207" width="280" height="2"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <color key="backgroundColor" red="0.17254901960784313" green="0.89803921568627454" blue="0.22745098039215686" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </view>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FkE-Yv-V4Y">
+                                                        <rect key="frame" x="209" y="387" width="91" height="29"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="25"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="highlightedColor" red="0.078431372550000003" green="0.3294117647" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x 4" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="FYf-m5-3Z2">
+                                                        <rect key="frame" x="16" y="395" width="20" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="highlightedColor" red="0.078431372550000003" green="0.3294117647" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x 2" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f5f-Nh-Ifq">
+                                                        <rect key="frame" x="16" y="277" width="20" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="highlightedColor" red="0.078431372550000003" green="0.3294117647" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="x 3" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Kq-mI-PGp">
+                                                        <rect key="frame" x="16" y="336" width="20" height="18"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="13"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="highlightedColor" red="0.078431372550000003" green="0.3294117647" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                    <label appearanceType="aqua" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="SvI-ve-eeI">
+                                                        <rect key="frame" x="119" y="245" width="181" height="58"/>
+                                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="50"/>
+                                                        <color key="textColor" red="0.15686274510000001" green="0.8980392157" blue="0.29411764709999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <color key="highlightedColor" red="0.078431372550000003" green="0.3294117647" blue="0.1843137255" alpha="1" colorSpace="calibratedRGB"/>
+                                                    </label>
+                                                </subviews>
+                                            </view>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.078431372549019607" green="0.396078431372549" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
+                                    </view>
+                                    <segmentedControl appearanceType="aqua" opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" id="Ciu-Fb-5F0">
+                                        <rect key="frame" x="20" y="100" width="280" height="29"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <segments>
+                                            <segment title="18%"/>
+                                            <segment title="20%"/>
+                                            <segment title="22%"/>
+                                        </segments>
+                                        <connections>
+                                            <action selector="onEditingChange:" destination="vXZ-lx-hvc" eventType="valueChanged" id="uMJ-ZZ-SAj"/>
+                                        </connections>
+                                    </segmentedControl>
+                                    <textField appearanceType="aqua" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="$" textAlignment="right" minimumFontSize="17" id="yw3-ZX-bU4">
+                                        <rect key="frame" x="20" y="0.0" width="280" height="92"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="textColor" red="0.098039217289999994" green="0.59215688710000003" blue="0.36470589040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-UltraLight" family="Helvetica Neue" pointSize="70"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                        <connections>
+                                            <action selector="onEditingChange:" destination="vXZ-lx-hvc" eventType="editingChanged" id="bwy-EY-EQm"/>
+                                        </connections>
+                                    </textField>
+                                </subviews>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.15686274509803921" green="0.89803921568627454" blue="0.29411764705882354" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="0.078431372549019607" green="0.396078431372549" blue="0.24313725490196078" alpha="1" colorSpace="calibratedRGB"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="v2U-CJ-sKW" appends="YES" id="tXa-8V-oCI"/>
+                        </connections>
                     </view>
+                    <connections>
+                        <outlet property="billField" destination="yw3-ZX-bU4" id="g9B-lo-4os"/>
+                        <outlet property="bottomBoxView" destination="kmf-hs-ZTz" id="dmx-fv-XNs"/>
+                        <outlet property="bottomControlsView" destination="Npk-C9-nyn" id="ItJ-AH-8WK"/>
+                        <outlet property="bottomView" destination="rBQ-i2-5sp" id="G3o-4I-xtZ"/>
+                        <outlet property="tipControl" destination="Ciu-Fb-5F0" id="mAW-mi-FQT"/>
+                        <outlet property="tipLabel" destination="P7M-ho-TdH" id="rEn-IS-JtZ"/>
+                        <outlet property="tipLabelFour" destination="FkE-Yv-V4Y" id="mEs-Bm-OVD"/>
+                        <outlet property="tipLabelThree" destination="i2a-25-QJg" id="4ff-GO-Ho8"/>
+                        <outlet property="tipLabelTwo" destination="SvI-ve-eeI" id="3e4-t1-6bp"/>
+                        <outlet property="totalLabel" destination="5oG-B0-PNe" id="u6k-s5-ktT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="v2U-CJ-sKW">
+                    <connections>
+                        <action selector="onTap:" destination="vXZ-lx-hvc" id="RFL-Ov-ek6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+    <color key="tintColor" red="0.078431372549019607" green="0.32941176470588235" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
 </document>
